@@ -64,7 +64,7 @@ fn complex_square_add_loop(c: Complex<f64>) {
 
 /// Try to determine if `c` is in the Mandelbrot set, using at most `limit`
 /// iterations to decide.
-///
+/// 
 /// If `c` is not a member, return `Some(i)`, where `i` is the number of
 /// iterations it took for `c` to leave the circle of radius 2 centered on the
 /// origin. If `c` seems to be a member (more precisely, if we reached the
