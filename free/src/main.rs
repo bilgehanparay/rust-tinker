@@ -1,7 +1,6 @@
 use std::fmt; 
 
 mod arrays;
-mod enums;
 
 #[derive(Debug)]
 struct Complex{
